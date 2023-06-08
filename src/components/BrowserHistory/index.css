@@ -1,0 +1,88 @@
+.browser-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.search-input-container {
+  display: flex;
+  background-color: #3367d6;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.history-logo {
+  width: 97%;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
+.search-icon-container {
+  background-color: #2850a7;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #6697ff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.search-input {
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  color: #64748b;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.destination-search-container {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.destinations-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.2);
+}
+
+.empty-history {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+}
